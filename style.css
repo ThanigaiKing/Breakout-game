@@ -1,0 +1,39 @@
+.main
+{
+    position:absolute;
+    top:20%;
+    left:25%;
+}
+.grid
+{
+    width:600px;
+    height:300px;
+    border:solid black 1px;
+    position: absolute;
+    margin-top:1%;
+}
+.block
+{
+    position: absolute;          /*position should use both child and parent class*/
+    width:100px;
+    height:20px;
+    background-color:blue;
+
+}
+.user
+{
+    position: absolute;          /*position should use both child and parent class*/
+    width:100px;
+    height:20px;
+    background-color:rgb(255, 30, 0);
+
+}
+.ball
+{
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    background-color:rgb(83, 226, 83);
+}
+
